@@ -813,7 +813,7 @@ ul.the-icons {
 /* .contactForm textarea { */
 textarea {
   width: 100%;
-  background: rgba(227, 231, 228, 1);
+  /* background: rgba(227, 231, 228, 1); */
   font-family: "Lato", sans-serif;
   border: 0;
   font-size: 14px;
