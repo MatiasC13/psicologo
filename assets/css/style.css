@@ -930,7 +930,7 @@ div.cform-response-output {
 #sendmessage.show,
 #errormessage.show,
 .show {
-  display: none;
+  display: none !important;
 }
 
 /* google map */
