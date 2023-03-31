@@ -234,8 +234,8 @@
               <div id="errormessage"></div>
               <!-- <form action="https://formsubmit.co/matiascabralmendez@gmail.com" method="post" role="form" class="contactForm"> -->
               <!-- <form action="https://formsubmit.co/matiascabralmendez@gmail.com" method="post"> -->
-                
-                <!-- <form
+
+              <!-- <form
                 name="formulario-contacto"
                 method="post"
                 data-netlify="true"
@@ -243,12 +243,14 @@
                 data-netlify-recaptcha="true"
                 class="contactForm"
               > -->
-                <form 
-                name="formulario-contacto" 
+              <form
+                name="formulario-contacto"
                 data-netlify="true"
                 action="/success"
-                >
-                <!-- <input name="bot-field" class="hidden" /> -->
+                netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
+              >
+                <input name="bot-field" class="hidden" />
                 <div class="form-group">
                   <input
                     type="text"
@@ -297,7 +299,7 @@
                   <div class="validation"></div>
                 </div>
                 <div class="text-center">
-                  <!-- <div data-netlify-recaptcha="true"></div> -->
+                  <div data-netlify-recaptcha="true"></div>
                   <button type="submit" class="btn btn-lg btn-theme">
                     Enviar Mensaje
                   </button>
