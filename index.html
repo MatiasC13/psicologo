@@ -243,7 +243,14 @@
                 data-netlify-recaptcha="true"
                 class="contactForm"
               > -->
-                <form name="formulario-contacto" netlify action="/success">
+                <form 
+                name="formulario-contacto" 
+                netlify 
+                action="/success"
+                netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
+                class="contactForm"
+                >
                 <input name="bot-field" class="hidden" />
                 <div class="form-group">
                   <input
@@ -293,7 +300,7 @@
                   <div class="validation"></div>
                 </div>
                 <div class="text-center">
-                  <div data-netlify-recaptcha="true" class="mb-5"></div>
+                  <div data-netlify-recaptcha="true"></div>
                   <button type="submit" class="btn btn-lg btn-theme">
                     Enviar Mensaje
                   </button>
