@@ -351,6 +351,7 @@ section#intro {
   font-size: 48px;
   color: #fff;
   line-height: 1.1em;
+  font-weight: bold;
 }
 /* ==== general main content style ==== */
 #maincontent.section {
