@@ -810,7 +810,8 @@ ul.the-icons {
 
 #contact-form input[type="text"],
 #contact-form input[type="email"],
-.contactForm textarea {
+/* .contactForm textarea { */
+textarea {
   width: 100%;
   background: rgba(227, 231, 228, 1);
   font-family: "Lato", sans-serif;
@@ -822,7 +823,8 @@ ul.the-icons {
 }
 #contact-form input[type="text"]:focus,
 #contact-form input[type="email"]:focus,
-.contactForm textarea:focus {
+/* .contactForm textarea:focus { */
+textarea:focus {
   background: rgba(101, 106, 100, 1);
   color: #eff1ef;
   box-shadow: none;
