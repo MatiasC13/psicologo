@@ -199,7 +199,8 @@ section.dark .heading h3 {
 
 .sub-heading p {
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 15px;
   line-height: 1.6em;
   color: #3a3a3a;
   font-weight: 300;
@@ -1264,3 +1265,4 @@ img.aligncenter {
 .img-acerca-de-mi {
   border-radius: 12px;
 }
+
