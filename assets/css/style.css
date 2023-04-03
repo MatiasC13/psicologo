@@ -206,8 +206,10 @@ section.dark .heading h3 {
   font-weight: 300;
 }
 
-.sub-heading-about p{
-  /* font-size: 30px; */
+.flex-form{
+display: flex;
+justify-content: space-evenly;
+/* align-items: center; */
 }
 
 section.dark .sub-heading p {
