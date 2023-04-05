@@ -782,6 +782,13 @@ ul.the-icons {
 }
 
 /* ============== contact ==================== */
+.contacto{
+  margin-top: 22px;
+  font-size: x-large;
+  font-weight: bold;
+  color: #3A3A3A;
+}
+
 .validation {
   display: none;
   margin: 0 0 20px;
